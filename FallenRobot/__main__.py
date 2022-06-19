@@ -82,22 +82,16 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(
-            text="✗ ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ​ ✗",
+            text="➕ Add me to your Group",
             url=f"https://t.me/{dispatcher.bot.username}?startgroup=true",
         ),
     ],
     [
-        InlineKeyboardButton(text="🧐 ʜᴇʟᴘ & ᴄᴍᴅs​​​ 🧐", callback_data="help_back"),
+        InlineKeyboardButton(text="Command Menu", callback_data="help_back"),
     ],
     [
-        InlineKeyboardButton(text="💞 ᴀʙᴏᴜᴛ ᴍᴇ​​ 💞", callback_data="fallen_"),
-        InlineKeyboardButton(text="🙄 sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ 🙄", callback_data="source_"),
-    ],
-    [
-        InlineKeyboardButton(text="💔 sᴜᴘᴘᴏʀᴛ 💔", url=f"https://t.me/{SUPPORT_CHAT}"),
-        InlineKeyboardButton(
-            text="🍑 ᴅᴇᴠᴇʟᴏᴘᴇʀ 🍑", url=f"https://t.me/{OWNER_USERNAME}"
-        ),
+        InlineKeyboardButton(text="About me", callback_data="fallen_"),
+        InlineKeyboardButton(text="Channel", url=f"https://t.me/dlksyz"),
     ],
 ]
 
