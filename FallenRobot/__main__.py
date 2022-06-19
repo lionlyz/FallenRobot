@@ -89,6 +89,7 @@ buttons = [
     [
         InlineKeyboardButton(text="Commands Menu", callback_data="help_back"),
     ],
+    [
  
         InlineKeyboardButton(text="Aboutme", callback_data="fallen_"),
         InlineKeyboardButton(text="Channel", url=f"https://t.me/dlksyz"),
