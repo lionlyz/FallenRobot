@@ -11,22 +11,25 @@ from FallenRobot import telethn as tbot
 
 
 PHOTO = [
-    "https://telegra.ph/file/6a21ea6677342f43b363e.jpg",
-    "https://telegra.ph/file/40eb1ed850cdea274693e.jpg",
+       "https://telegra.ph/file/c8f5c1dd990ca9a3d8516.jpg",
+       "https://telegra.ph/file/77cc3154b752ce822fd52.jpg",
+       "https://telegra.ph/file/e72fb0b6a7fba177cf4c7.jpg",
+       "https://telegra.ph/file/8738a478904238e367939.jpg",
+       "https://telegra.ph/file/68d7830ba72820f44bda0.jpg",
 ]
 
 
 @register(pattern=("/alive"))
 async def awake(event):
-    TEXT = f"**ʜᴇʏ​ [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\nɪ ᴀᴍ ꜰᴀʟʟᴇɴ ✘ ʀᴏʙᴏᴛ​**\n━━━━━━━━━━━━━━━━━━━\n\n"
-    TEXT += f"» **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ : [𝝙𝗡𝗢𝗡𝗬𝗠𝗢𝗨𝗦](https://t.me/anonymous_was_bot)** \n\n"
+    TEXT = f"**ʜᴇʏ​ [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\nɪ ᴀᴍ keamanan ✘ ʀᴏʙᴏᴛ​**\n━━━━━━━━━━━━━━━━━━━\n\n"
+    TEXT += f"» **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ : [leon](https://t.me/divmas)** \n\n"
     TEXT += f"» **ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ :** `{telever}` \n\n"
     TEXT += f"» **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{tlhver}` \n\n"
     TEXT += f"» **ᴘʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ :** `{pyrover}` \n━━━━━━━━━━━━━━━━━\n\n"
     BUTTON = [
         [
-            Button.url("ʜᴇʟᴘ​", "https://t.me/FallenXRobot?start=help"),
-            Button.url("sᴜᴘᴘᴏʀᴛ​", "https://t.me/DevilsHeavenMF"),
+            Button.url("ʜᴇʟᴘ​", "https://t.me/Keamananrobot?start=help"),
+            Button.url("sᴜᴘᴘᴏʀᴛ​", "https://t.me/dlksyz"),
         ]
     ]
     ran = random.choice(PHOTO)
